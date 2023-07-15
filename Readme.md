@@ -35,7 +35,7 @@ Response:
 Here is how to use it with js fetch:
 
 ```javascript
-fetch("http://localhost:3000/api/uflrna17vbc")
+fetch("https://quizik.onrender.com/api/uflrna17vbc")
 .then((res) => res.json())
 .then((data) => console.log(data))
 .catch((err) => console.log("error: ", err));
@@ -103,7 +103,7 @@ const data = {
 };
 
 // creating a quiz with post request
-fetch("http://localhost:3000/api/", {
+fetch("https://quizik.onrender.com/api/", {
   method: "POST",
   headers: {
     "Content-type": "application/json",
@@ -179,7 +179,7 @@ const data = {
 };
 
 // updating a quiz with put request
-fetch("http://localhost:3000/api/", {
+fetch("https://quizik.onrender.com/api/", {
   method: "PUT",
   headers: {
     "Content-type": "application/json",
@@ -208,7 +208,7 @@ Response:
 Here is how to use it with js fetch:
 
 ```javascript
-fetch("http://localhost:3000/api/uflrna17vbc", {
+fetch("https://quizik.onrender.com/api/uflrna17vbc", {
   method: "DELETE",
   headers: {
     "Content-type": "application/json; charset=UTF-8",
